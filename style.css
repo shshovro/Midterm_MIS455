@@ -1,0 +1,67 @@
+body {
+    font-family:sans-serif ;
+    color: #04062D;
+    margin: 0px;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.navbar {
+    font-family:sans-serif ;
+    font-variant-caps: small-caps ;
+    background-color: #10997f;
+    overflow: hidden;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.5)
+    
+}
+.navbar a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #ffba40;
+    color:  #ffffff;
+    padding: 14px 20px;
+    
+}
+
+.navbar a:hover, .dropdown2:hover .dropbtn2 {
+    background-color: #ffba40;
+    color:  #ffffff;
+    padding: 14px 20px;
+    
+}
+
+footer {
+	background-color: #10997f;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            top: 650px;
+            bottom: 0;
+            width: 100%;
+			
+}
+footer a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	margin: 0 5px;
+
+}
+
+footer p {
+	margin: 5px 0;
+	line-height: 1.5;
+	font-size: 12px;
+    color: white;
+}
