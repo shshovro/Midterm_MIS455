@@ -92,3 +92,41 @@
     margin-top: 20px;
     width: 100%;
 }
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+    text-align: center;
+	font-size: 48px;
+	color: #10997f;
+	margin-top: 185px;
+}
+p {
+	font-family: 'Open Sans', sans-serif;
+    text-align: center;
+	font-size: 18px;
+	margin: 10px 0;
+}
+.highlight {
+	font-weight: bold;
+	color: #10997f;
+}
+
+.contact-info {
+	font-family: 'Open Sans', sans-serif;
+    text-align: center;
+	margin-top: 30px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.address {
+	font-family: 'Open Sans', sans-serif;
+    text-align: center;
+	margin-top: 10px;
+	font-size: 16px;
+}
+.hours {
+	font-family: 'Open Sans', sans-serif;
+    text-align: center;
+	margin-top: 5px;
+	font-size: 16px;
+}
