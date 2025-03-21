@@ -41,9 +41,33 @@
                     </div>
                 </div>
         
-               
+                <div class="card">
+                    <img src="/images/chitaruti_duck.jpg" alt="Ruti with Duck">
+                    <div class="card-body">
+                        <h2 class="card-title">Ruti with Duck</h2>
+                        <p>TK: 450</p>
+                        <div class="card-actions">
+                            <button class="btn" onclick="addToBookedItems(this)">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="card">
+                    <img src="/images/beef_kalabhuna.jpg" alt="Beef Kalabhuna">
+                    <div class="card-body">
+                        <h2 class="card-title">Beef Kalabhuna</h2>
+                        <p>TK: 300</p>
+                        <div class="card-actions">
+                            <button class="btn" onclick="addToBookedItems(this)">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-
+            <div class="booked-section">
+                <h2>Your Items</h2>
+                <div id="bookedItemsContainer"></div>
+                <p id="totalPrice">Total: TK 0</p>
+                <button class="btn" onclick="window.location.href='payment.html'">Review payment and address</button>
             </div>
         </div>
 
